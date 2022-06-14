@@ -5,6 +5,7 @@ body{
 
 // footer to bottom
 .body , html{
+  scroll-behavior: smooth;
   height: 100%;
   min-height: 100vh;
   @include xxl{
@@ -17,8 +18,10 @@ body{
 .main{
   flex-grow: 1;
   overflow: hidden;
-  padding-left: 70px;
   max-width: 1920px;
+  @include md{
+    padding-left: 70px;
+  }
   @include xl{
     padding-left: 100px;
   }
@@ -79,20 +82,29 @@ figure{
 .accent-title{
   text-align: left;
   color: white;
-  font-size: clamp(20px, 3vw, 63px);
+  font-size: clamp(25px, 3vw, 63px);
   position: relative;
   line-height: .9;
-  padding-left: 20px;
+  padding-left: 13px;
   margin-bottom: 20px;
   font-weight: 600;
+  @include md{
+    padding-left: 20px;
+  }
   &::before{
     content: "";
     height: 90%;
-    width: 7px;
+    width: 3px;
     top: 3%;
     left: 0;
     position: absolute;
     background: $accentColor;
+    @include md{
+      width: 5px;
+    }
+    @include xl{
+      width: 7px;
+    }
   }
 }
   

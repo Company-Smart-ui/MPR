@@ -3,7 +3,6 @@ $nav-bgc:rgba(0, 0, 0, 0.322);
 $nav-hover:rgb(170, 81, 81);
 
 
-
 .nav {
     color: white;
     width: 100%;
@@ -17,7 +16,6 @@ $nav-hover:rgb(170, 81, 81);
         padding: 0;
         margin: 0;
         overflow: hidden;
-
     }
 
     .menu-item {
@@ -45,23 +43,32 @@ $nav-hover:rgb(170, 81, 81);
 .nav-btn {
     background-color: transparent;
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 21px;
     z-index: 10;
     padding: 0;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 0 auto !important;
+    @include md{
+        width: 50px;
+        height: 50px;
+    }
     .btn-row {
         transition: 0.2s;
         background-color: white;
-        height: 4px;
+        height: 3px;
         width: 100%;
+        @include md{
+            height: 4px;
+        }
     }
     .btn-row+.btn-row {
-        margin-top: 5px;
+        margin-top: 3px;
+        @include md{
+            margin-top: 5px;
+        }
     }
 }
 
@@ -81,9 +88,11 @@ $nav-hover:rgb(170, 81, 81);
         }
     }
     .nav-btn {
-        position: absolute;
-        right: 10px;
-        top: 10px;
+        @include md{
+            top: 10px;
+            position: absolute;
+            right: 10px;
+        }
     }
     .btn-row {
         margin: 0 !important;

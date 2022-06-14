@@ -23,7 +23,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/admin/Documents/GitHub/MPR/src",
+    "last_opened_file_path": "/Users/admin/Documents/GitHub/MPR/src/html-templates",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
@@ -32,8 +32,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/html-templates" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/html-templates/modules" />
@@ -48,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654506272649</updated>
       <workItem from="1654506273849" duration="97147000" />
-      <workItem from="1654931770616" duration="24013000" />
+      <workItem from="1654931770616" duration="39811000" />
     </task>
     <servers />
   </component>

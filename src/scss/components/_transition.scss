@@ -1,5 +1,4 @@
 .transition{
-  background-image: url("../images/transition-img-template.jpg");
   background-position: center;
   background-size: cover;
   padding: 80px 0;
@@ -8,20 +7,23 @@
   z-index: 1;
   font-weight: 300;
   display: flex;
-  &::before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    content: "";
-    z-index: 2;
-    background-color: rgba(0,0,0, .93);
-  }
-  @include sm{
-    &::after{
+  text-align: center;
+  @include sm {
+    text-align: left;
+    background-image: url("../images/transition-img-template.jpg");
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+      content: "";
+      z-index: 2;
+      background-color: rgba(0, 0, 0, .93);
+    }
+    &::after {
       position: absolute;
       top: 0;
       left: 25%;
@@ -35,7 +37,7 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
-    &::before{
+    &::before {
       top: 0;
       left: calc(25% + 149px);
       width: 75%;
@@ -95,15 +97,14 @@
     }
   }
   .wrap-btn{
-    @include md{
-      margin: 0 auto;
-    }
-    .button{
-      width: 100%;
-    }
+    margin: 0 auto;
   }
   .accent-title{
     margin-bottom: 2.5vw;
+    place-self: center;
+    @include md{
+      place-self: normal;
+    }
   }
   ul{
     text-transform: uppercase;
@@ -120,7 +121,9 @@
   }
   &.modified{
     display: block;
+    padding-top: 0;
     @include sm{
+      padding-top: 80px;
       &::after{
         transform: scale(-1, 1);
         left: calc(75% - 149px);
@@ -144,6 +147,9 @@
       }
       .accent-title{
         margin-bottom: 20px;
+        @include sm{
+          place-self: auto;
+        }
       }
     }
     @include lg{

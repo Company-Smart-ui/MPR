@@ -3,13 +3,16 @@ $header-bgc: $mainColor;
 .header {
     z-index: 5;
     overflow: hidden;
-    position: fixed;
-    width: 70px;
+    position: sticky;
     top: 0;
-    bottom: 0;
-    height: 100vh;
     background-color: $header-bgc;
     transition: 0.3s;
+    @include md{
+        width: 70px;
+        height: 100vh;
+        position: fixed;
+        bottom: 0;
+    }
     @include xl{
         width: 100px;
     }
@@ -18,29 +21,54 @@ $header-bgc: $mainColor;
     }
     .top{
         margin: 0 auto;
-    }
-    .content {
-        flex-wrap: wrap;  
-        padding: 20px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
-    } 
+        @include md{
+            display: block;
+        }
+    }
+    .content {
+        padding: 15px 0;
+        @include md{
+            padding: 20px 0;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .wrap-figure{
+        display: flex;
+    }
     .logo {
-        width: 50px;
-        margin: 0 auto;
+        width: 40px;
+        margin: 0;
+        margin-right: 7px;
+        @include md{
+            width: 50px;
+        }
         img {
             object-fit: contain;
             width: 100%;
             height: auto;
         } 
     }
+    .logo-mobile{
+        width: 35px;
+        @include md{
+            display: none;
+        }
+    }
     .name{
-        display: block;
+        display: none;
         text-transform: uppercase;
         color: white;
         font-weight: 900;
         margin: 10px 0 0;
+        @include md{
+            display: block;
+        }
     }
 }
 

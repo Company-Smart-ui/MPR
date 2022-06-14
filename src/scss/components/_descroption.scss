@@ -16,11 +16,31 @@
     margin-bottom: 30px;
   }
   p{
-    margin: 0;
+    @include md{
+      margin: 0;
+    }
   }
   h3{
     font-size: clamp(20px, 3.5vw, 67px);
-    font-weight: 600;
+    font-weight: 300;
     color: $accentColor;
+    @include md{
+      font-weight: 600;
+    }
+  }
+  .links{
+    font-size: clamp(15px, 1.7vw, 33px);
+    color: white;
+    text-transform: uppercase;
+    ul{
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    li{
+      margin: 10px;
+    }
   }
 }
