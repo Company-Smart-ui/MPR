@@ -1,0 +1,200 @@
+.holder{
+  background: white;
+  padding-bottom: 70px;
+  font-size: clamp(16px, 1.2vw, 22px);
+  .top{
+    background-color: $mainColor;
+    background-image: url("../images/holder/bg-holder.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 350px;
+    &.modified{
+      background-color: white;
+    }
+  }
+  .banner{
+    margin-top: -200px;
+    margin-bottom: 20px;
+    @include lg{
+      margin-bottom: 35px;
+    }
+    .wrap-banner{
+      background: $accentColor;
+      max-height: 640px;
+      font-size: 0;
+      img{
+        min-height: 350px;
+      }
+    }
+    &.modified{
+      .accent-title{
+        color: $mainColor;
+      }
+    }
+  }
+  .wrapper{
+    @include lg{
+      display: flex;
+      justify-content: space-between;
+    }
+    &.modified{
+      @include lg{
+        align-items: flex-end;
+      }
+    }
+  }
+  .accent-title{
+    padding-left: 30px;
+    font-size: clamp(18px, 1.5vw, 30px);
+    &::before {
+      width: 4px;
+      left: 20px;
+    }
+  }
+  h3{
+    color: $accentColor;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: clamp(26px, 3.3vw, 60px);
+  }
+  h3, h4{
+    text-transform: none;
+    text-align: left;
+    line-height: 1.2;
+  }
+  h5{
+    font-size: clamp(16px, 1.2vw, 23px);
+  }
+  .wrap-logo{
+    max-width: 420px;
+    margin: 0 20px;
+    @include lg{
+      margin: 0;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  .col{
+    text-align: left;
+    font-weight: 300;
+    line-height: 1.4;
+    @include lg{
+      width: calc(50% - 20px);
+    }
+    @include xxl{
+       width: calc(47% - 20px);
+    }
+    &.modified{
+      margin: 0 -20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      @include lg{
+        margin: 0;
+        flex-direction: column;
+      }
+    }
+    .second-title{
+      color: $accentColor;
+      font-weight: 300;
+      text-align: right;
+      margin-bottom: 15px;
+      font-size: clamp(18px, 2.3vw, 40px);
+      &.modified{
+        text-align: left;
+      }
+    }
+    p{
+      margin-top: 0;
+    }
+    ul{
+      padding-left: 17px;
+      strong{
+        margin-left: -20px;
+      }
+    }
+  }
+  .wrap{
+    @include md{
+      margin: 0 -10px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .block{
+    text-align: center;
+    padding: 15px;
+    border: 2px solid $accentColor;
+    margin: 20px 0;
+    font-size: clamp(12px, .9vw, 18px);
+    @include lg{
+      margin: 0 10px;
+    }
+    p{
+      margin: 0;
+    }
+    @include md{
+      width: calc(33.3% - 20px);
+    }
+    .wrap-svg{
+      height: 100px;
+      display: flex;
+      align-items: flex-end;
+      margin: 0 auto 15px;
+      justify-content: center;
+      @include lg{
+        max-width: 140px;
+      }
+      svg{
+        max-width: 100px;
+        max-height: 100px;
+        width: 100%;
+      }
+    }
+  }
+  .block-simple{
+    text-transform: uppercase;
+    font-size: clamp(12px, .9vw, 18px);
+    text-align: center;
+    margin: 0 10px;
+    .wrap-img{
+      max-width: 200px;
+      height: 200px;
+      margin: 0 auto 15px;
+      @include lg{
+        margin-bottom: 25px;
+      }
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .coordination{
+    font-size: clamp(16px, 1.4vw, 28px);
+  }
+  .email{
+    display: block;
+    margin-top: 15px;
+  }
+  .gallery{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -2.5%;
+    .wrap-logo{
+      margin: 4% 2.5%;
+      max-width: none;
+      img{
+        height: auto;
+        max-height: 130px;
+        object-fit: contain;
+      }
+    }
+  }
+  .right{
+    text-align: right;
+  }
+}

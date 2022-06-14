@@ -1,23 +1,29 @@
-$main-button:green;
-$main-button-hover:rgb(9, 65, 9);
+$main-button: transparent;
+$main-button-hover: $accentColor;
  button{
-   cursor: pointer;
+  cursor: pointer;
  }
 .button{
-    width: 100%;
-    display: inline-block;
-    padding:10px 25px;
-    background-color: $main-button;
-    border:solid $main-button;
-    font-size: 24px;
-    color:white;
-    border-radius: 4px;
-      cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 3vw;
+  padding-left: clamp(15px, 3vw, 65px);
+  padding-right: clamp(15px, 3vw, 65px);
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: $main-button;
+  border: 1px solid $main-button-hover;
+  font-size: clamp(16px, 2.2vw, 43px);
+  color: white;
+  cursor: pointer;
+  transition: .3s;
+  text-decoration: none;
   }
   
   .button:hover{
-    color:$green;
-    background-color: white;
+    color: $main-button-hover;
+    background-color: white !important;
+    border: 1px solid white;
   }
   
   

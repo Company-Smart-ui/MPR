@@ -1,0 +1,47 @@
+@@include('html-templates/head.html',{
+title:'MPR | EMPLOIS',
+metadesc:'page with very interesting content'
+})
+
+<!--<link rel="stylesheet" href="css/swiper-bundle.css" class='swiper-delay_js' data-time="5111"></link>-->
+<main class="main">
+    <!--hero-->
+    @@include('./html-templates/_hero.html',{
+    item: "emplois",
+    title: "travaillez",
+    subTitle: "avec une équipe <br> de passionnés",
+    })
+    <!--description-->
+    @@include('./html-templates/_description.html',{
+    title: "emplois",
+    text: "<p>Tu es une personne passionnée et motivée à travailler dans une petite équipe dynamique, performante et en pleine croissance? Viens faire partie de notre belle équipe, nous avons plein de beaux défis pour toi.  Multi Patio Rampe Experts c’est une belle entreprise en croissance, gérée par des personnes à l'écoute des besoins de leurs employés. Nous aimons tous bien performer, tout en ayant du plaisir à faire notre travail.</p>",
+    secondTitle: "Intéressé.e par un poste?",
+    })
+    <!--  section info-->
+    <section class="holder">
+        <div class="top"></div>
+        <div class="container">
+            <div class="banner">
+                <h2 class="accent-title">Formulaire d’embauche</h2>
+                <div class="wrap-banner">
+                    <img src="./images/holder/holder-img-template.jpg" alt="banner">
+                </div>
+            </div>
+            <div class="content">
+                <h3>Rejoins l’équipe!</h3>
+                @@include('./html-templates/_form-job.html')
+            </div>
+        </div>
+    </section>
+    <!--section transition-->
+    @@include('./html-templates/_section-transition.html')
+</main>
+@@include('./html-templates/footer.html',{
+})
+
+</div>
+
+<script  src="js/main.js"> </script>
+</body>
+
+</html>

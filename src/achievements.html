@@ -1,0 +1,35 @@
+@@include('html-templates/head.html',{
+title:'MPR | RÉALISATIONS',
+metadesc:'page with very interesting content'
+})
+
+<!--<link rel="stylesheet" href="css/swiper-bundle.css" class='swiper-delay_js' data-time="5111"></link>-->
+<main class="main">
+    <!--hero-->
+    @@include('./html-templates/_hero.html',{
+    item: "RÉALISATIONS",
+    title: "voir",
+    subTitle: "L’EXTÉRIEUR <br> AUTREMENT",
+    })
+    <!--description-->
+    @@include('./html-templates/_description.html',{
+    title: "RÉALISATION",
+    text: "<p>Laissez-vous inspirer par notre galerie d’images.</p><p>Différents styles pour tous les goûts.</p>",
+    secondTitle: "UNE IMAGE VAUT MILLE MOTS!",
+    })
+    <!--  section info-->
+    <section class="gallery">
+        <div class="container">
+
+        </div>
+    </section>
+</main>
+@@include('./html-templates/footer.html',{
+})
+
+</div>
+
+<script  src="js/main.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<form class="form">
+    <h4>COORDONNÉES</h4>
+    <div class="wrapper">
+        <div class="col">
+            <div class="group-item">
+                <label for="firstName">Prénom *</label>
+                <input id="firstName" type="text" placeholder="Entrer votre prénom" required>
+            </div>
+            <div class="group-item">
+                <label for="telephone">Téléphone *</label>
+                <input id="telephone" type="text" placeholder="555-555-5555" required>
+            </div>
+            <div class="group-item">
+                <label for="town">Ville *</label>
+                <input id="town" type="text" placeholder="555-555-5555" required>
+            </div>
+
+        </div>
+        <div class="col">
+            <div class="group-item">
+                <label for="lastName">Nom *</label>
+                <input id="lastName" type="text" placeholder="Entrer votre nom" required>
+            </div>
+            <div class="group-item">
+                <label for="email">Courriel *</label>
+                <input id="email" type="text" placeholder="info@mpre.ca" required>
+            </div>
+            <div class="group-item">
+                <label for="time">Meilleur moment pour vous joindre</label>
+                <select name="time to reach you" id="time">
+                    <option value="En tout temps">En tout temps</option>
+                    <option value="En tout temps">En tout temps</option>
+                    <option value="En tout temps">En tout temps</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <h4>VOTRE PROJET</h4>
+    <div class="wrapper">
+        <div class="col">
+            <div class="group">
+                <label for="projectType">Type de projet</label>
+                <select name="project type" id="projectType">
+                    <option value="En tout temps">En tout temps</option>
+                    <option value="En tout temps">En tout temps</option>
+                    <option value="En tout temps">En tout temps</option>
+                </select>
+            </div>
+            <div class="group-checkbox modified">
+                <h5>Vous êtes intéressé par quel produit?</h5>
+                <div class="wrap">
+                    <div class="item-check">
+                        <input type="checkbox" id="rampes" name="rampes">
+                        <label for="rampes">Rampes</label>
+                    </div>
+
+                    <div class="item-check">
+                        <input type="checkbox" id="colonnes" name="colonnes">
+                        <label for="colonnes">Colonnes</label>
+                    </div>
+
+                    <div class="item-check">
+                        <input type="checkbox" id="auventSolarium" name="Auvent & solarium">
+                        <label for="auventSolarium">Auvent & solarium</label>
+                    </div>
+
+                    <div class="item-check">
+                        <input type="checkbox" id="planchers" name="planchers">
+                        <label for="planchers">Planchers</label>
+                    </div>
+
+                    <div class="item-check">
+                        <input type="checkbox" id="clôtures" name="clôtures">
+                        <label for="clôtures">Clôtures</label>
+                    </div>
+
+                    <div class="item-check">
+                        <input type="checkbox" id="structure" name="structure">
+                        <label for="structure">Structure</label>
+                    </div>
+
+                    <div class="item-check">
+                        <input type="checkbox" id="escaliers" name="escaliers">
+                        <label for="escaliers">Escaliers</label>
+                    </div>
+
+                    <div class="item-check">
+                        <input type="checkbox" id="muretsIntimité" name="Murets intimité">
+                        <label for="muretsIntimité">Murets intimité</label>
+                    </div>
+                </div>
+            </div>
+            <div class="group">
+                <label for="selectFile">Joindre un fichier</label>
+                <input id="selectFile" name="selectFile" type="file" value="selectFile">
+            </div>
+        </div>
+        <div class="col">
+            <div class="group-checkbox">
+                <h5>Je désire le service d’installation</h5>
+                <div class="wrap">
+                    <div class="item-check">
+                        <input type="checkbox" id="checkOui" name="Oui">
+                        <label for="checkOui">Oui</label>
+                    </div>
+
+                    <div class="item-check">
+                        <input type="checkbox" id="checkNon" name="Non">
+                        <label for="checkNon">Non</label>
+                    </div>
+                </div>
+            </div>
+            <div class="group">
+                <label for="detailsAdd">Quelques détails à ajouter?</label>
+                <textarea name="Écrire ici" id="detailsAdd" cols="30" rows="6" placeholder="Écrire ici"></textarea>
+            </div>
+
+            <div class="group">
+                <label for="whereHear">Où avez-vous entendu parler de nous?</label>
+                <select name="time to reach you" id="whereHear">
+                    <option value="Faites un choix">Faites un choix</option>
+                    <option value="Faites un choix">Faites un choix</option>
+                    <option value="Faites un choix">Faites un choix</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-button">
+        <button class="button" type="submit">SOUMETTRE</button>
+    </div>
+</form>

@@ -1,6 +1,42 @@
-footer{
-  padding: 20px 10px 30px 10px;
-  background-color:#000;
-  color:white;
+.footer{
+  padding: 50px 0 70px 70px;
+  background-color: $mainColor;
+  color: white;
+  font-size: clamp(16px, 1.5vw, 28px);
+  @include lg{
+    padding: 50px 0 100px 100px;
+  }
+  .wrap{
+    font-weight: 300;
+    text-align: center;
+    @include sm{
+      text-align: left;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+    p{
+      margin: 0 0 7px;
+    }
+  }
+  .content{
+    margin-bottom: 20px;
+    @include sm{
+      margin-bottom: 0;
+    }
+  }
+  .email{
+    margin-top: 15px;
+    display: block;
+  }
+  .coordination{
+    font-weight: 700;
+  }
+  .wrap-button{
+    .button{
+      background: $accentColor;
+      padding: 15px 2vw;
+    }
+  }
 }
  

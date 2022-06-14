@@ -1,0 +1,47 @@
+@@include('html-templates/head.html',{
+title:'MPR | DEVIS',
+metadesc:'page with very interesting content'
+})
+
+<!--<link rel="stylesheet" href="css/swiper-bundle.css" class='swiper-delay_js' data-time="5111"></link>-->
+<main class="main">
+    <!--hero-->
+    @@include('./html-templates/_hero.html',{
+    item: "DEVIS",
+    title: "profitez",
+    subTitle: "PLEINEMENT <br> DE TOUS LES <br> INSTANTS",
+    })
+    <!--description-->
+    @@include('./html-templates/_description.html',{
+    title: "DEVIS",
+    text: "<p>Nos représentants et experts conseils sont à votre disposition pour vous aider dans votre projet. Notre expertise dans le domaine nous permet de vous donner une idée juste des coûts en pensant à toutes les contraintes. Comme vous, nous n’aimons pas les surprises!</p>",
+    secondTitle: "VOUS DÉSIREZ UNE SOUMISSION?",
+    })
+    <!--  section info-->
+    <section class="holder">
+        <div class="top"></div>
+        <div class="container">
+            <div class="banner">
+                <h2 class="accent-title">DEMANDE DE SOUMISSION</h2>
+                <div class="wrap-banner">
+                    <img src="./images/holder/holder-img-template.jpg" alt="banner">
+                </div>
+            </div>
+            <div class="content">
+                <h3>C’est simple et rapide</h3>
+                @@include('./html-templates/_form.html')
+            </div>
+        </div>
+    </section>
+    <!--section transition-->
+    @@include('./html-templates/_section-transition.html')
+</main>
+@@include('./html-templates/footer.html',{
+})
+
+</div>
+
+<script  src="js/main.js"> </script>
+</body>
+
+</html>

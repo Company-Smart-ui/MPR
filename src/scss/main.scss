@@ -4,14 +4,16 @@
 
   @import 'components/_var';   
   @import 'components/header/header';
-  @import 'components/grid';
-  @import 'components/sections';
   @import 'components/button';
   @import 'components/card';
   @import 'components/fonts';
   @import 'components/footer';
   @import 'components/popup'; 
   @import 'components/list';   
+  @import 'components/descroption';
+  @import 'components/transition';
+  @import 'components/holder';
+  @import 'components/form';
 
 
 
@@ -20,4 +22,4 @@
  
 
 
-@import 'modules/modules.scss'
+@import 'modules/modules.scss';

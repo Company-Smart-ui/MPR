@@ -1,1 +1,60 @@
- 
+.cards{
+ padding: 4% 0pt;
+ background: white;
+  .accent-title{
+   color: $mainColor;
+   margin-bottom: 5%;
+ }
+ .wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  @include lg{
+   align-items: stretch;
+  }
+ }
+ .card {
+  width: calc(50% - 20px);
+  margin: 0 10px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include md{
+   width: calc(33.33% - 20px);
+  }
+  @include lg{
+   width: calc(25% - 30px);
+   margin: 0 15px 30px;
+   &:nth-child(n+5) {
+    .item-title {
+     order: 1;
+     margin-bottom: 0;
+    }
+   }
+  }
+ }
+  .item-title{
+   font-weight: 300;
+   font-size: clamp(20px, 2vw, 38px);
+   @include lg{
+    order: -1;
+    margin-bottom: 30px;
+   }
+  }
+  .wrap-img{
+   height: 100px;
+   max-width: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 15px;
+   @include lg{
+    height: 200px;
+    max-width: 200px;
+   }
+   svg{
+    height: 100%;
+    width: 100%;
+   }
+  }
+ }

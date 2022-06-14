@@ -1,0 +1,136 @@
+.form{
+  @include xl{
+    font-size: clamp(16px, 1.3vw, 22px);
+  }
+  .wrap-button{
+    position: relative;
+    left: 60%;
+    @include lg{
+      margin-top: 60px;
+    }
+    .button{
+      background: $accentColor;
+      &:hover{
+        border: 1px solid $accentColor;
+      }
+    }
+  }
+  .col{
+    @include xxl{
+      width: calc(50% - 20px);
+    }
+  }
+  input, select, textarea{
+    display: block;
+    width: 90%;
+    resize: none;
+  }
+  input{
+    &::-webkit-file-upload-button{
+      visibility: hidden;
+    }
+  }
+  input[type="file"]{
+    padding: 7px 10px !important;
+    &::before{
+      content: 'Sélect. fichiers';
+      display: inline-block;
+      border: 1px solid $mainColor;
+      padding: 8px 15px;
+      outline: none;
+      white-space: nowrap;
+      -webkit-user-select: none;
+      cursor: pointer;
+      font-weight: 100;
+      font-size: clamp(14px, 1vw, 16px);
+    }
+  }
+  label{
+    display: block;
+    font-weight: 700;
+  }
+  .group-item, .group{
+    margin-bottom: 15px;
+    label{
+      padding: 0 0 7px 7px;
+    }
+    input, select, textarea{
+      padding: 15px;
+      border: 1px solid black;
+      font-size: clamp(14px, 1vw, 16px);
+    }
+  }
+  .group{
+    margin-bottom: 30px;
+  }
+  h4{
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 0 5px;
+    font-size: clamp(16px, 1.9vw, 35px);
+    @include lg{
+      margin-bottom: 15px;
+    }
+  }
+  .wrapper{
+    align-items: flex-start !important;
+    margin-bottom: 30px;
+  }
+  .wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+    margin: 0 !important;
+  }
+  .item-check{
+    display: flex;
+    width: 33%;
+    margin-bottom: 7px;
+    input{
+      width: 25px;
+      height: 25px;
+      background-color: white;
+      border-radius: 0;
+      vertical-align: middle;
+      border: 1px solid black;
+      appearance: none;
+      -webkit-appearance: none;
+      outline: none;
+      margin-right: 10px;
+      position: relative;
+      &:checked{
+        &:after{
+          position: absolute;
+          content: "\2714";
+          top: 0;
+          left: 0;
+          width: 100%;
+          text-align: center;
+          height: 100%;
+          font-size: 20px;
+        }
+      }
+    }
+    input + label{
+      cursor: pointer;
+    }
+  }
+  .group-checkbox{
+    font-size: clamp(16px, 1.3vw, 21px);
+    margin-bottom: 20px;
+    label{
+      font-weight: 300;
+    }
+    h5{
+      text-align: left;
+      margin-bottom: 15px;
+      font-size: clamp(16px, 1.3vw, 22px);
+      text-transform: none;
+    }
+    &.modified{
+      @include lg{
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

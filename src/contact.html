@@ -1,0 +1,94 @@
+@@include('html-templates/head.html',{
+title:'MPR | CONTACT',
+metadesc:'page with very interesting content'
+})
+
+<!--<link rel="stylesheet" href="css/swiper-bundle.css" class='swiper-delay_js' data-time="5111"></link>-->
+<main class="main">
+    <!--hero-->
+    @@include('./html-templates/_hero.html',{
+    item: "Contact",
+    title: "augmentez",
+    subTitle: "votre <br> espace <br> de vie",
+    })
+    <!--description-->
+    @@include('./html-templates/_description.html',{
+    title: "Contact",
+    text: "<p>Venez nous rencontrer en succursale pour découvrir notre vaste sélection de produits. La salle de montre ayant pignon sur rue sur le boulevard Wilfrid Hamel est facile d’accès avec un grand stationnement pour vous accueillir.</p><p>Il vous également est possible de prendre rendez-vous avec l’un de nos spécialistes quelles que soient la grandeur et la complexité de votre besoin!</p>",
+    secondTitle: "où nous trouver?",
+    })
+    <!--  section info-->
+    <section class="holder">
+        <div class="top"></div>
+        <div class="container">
+            <div class="banner">
+                <h2 class="accent-title">Pour Nous joindre</h2>
+                <div class="wrap-banner">
+                    <img src="./images/holder/holder-img-template.jpg" alt="banner">
+                </div>
+            </div>
+            <div class="content">
+                <h3>Coordonnées</h3>
+                <div class="wrapper modified">
+                    <div class="col coordination">
+                        <p>
+                            <strong>418.874.7776</strong><br>
+                            3655 boul Wilfrid-Hamel<br>
+                            Québec QC G1P 2J4
+                            <a href="mailto:info@mpre.ca" class="email">info@mpre.ca</a>
+                        </p>
+                        <p>
+                            <strong>Heures d’ouverture</strong><br>
+                            Lundi au vendredi de 9h à 16h
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  section info-->
+    <section class="holder">
+        <div class="top modified"></div>
+        <div class="container">
+            <div class="banner modified">
+                <h2 class="accent-title">Nos partenaires</h2>
+                <div class="wrap-banner">
+                    <img src="./images/holder/holder-img-template.jpg" alt="banner">
+                </div>
+            </div>
+            <div class="content">
+                <div class="gallery">
+                    <div class="wrap-logo">
+                        <img src="./images/holder/logo/distinction.png" alt="distinction">
+                    </div>
+                    <div class="wrap-logo">
+                        <img src="./images/holder/logo/aluminium.png" alt="aluminium">
+                    </div>
+                    <div class="wrap-logo">
+                        <img src="./images/holder/logo/almax.png" alt="almax">
+                    </div>
+                    <div class="wrap-logo">
+                        <img src="./images/holder/logo/global-dec-k-ing-systems.png" alt="global-dec-k-ing-systems">
+                    </div>
+                    <div class="wrap-logo">
+                        <img src="./images/holder/logo/jdee-tech.png" alt="jdee-tech">
+                    </div>
+                    <div class="wrap-logo">
+                        <img src="./images/holder/logo/fiberon.png" alt="fiberon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--section transition-->
+    @@include('./html-templates/_section-transition.html')
+</main>
+@@include('./html-templates/footer.html',{
+})
+
+</div>
+
+<script  src="js/main.js"> </script>
+</body>
+
+</html>

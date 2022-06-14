@@ -1,0 +1,26 @@
+.description{
+  padding-top: clamp(20px,10vw,220px);
+  padding-bottom: clamp(20px,6vw,180px);
+  padding-right: 0;
+  padding-left: 0;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: clamp(16px, 1.5vw, 28px);
+  .title{
+    font-size: clamp(20px, 3.5vw, 67px);
+    font-weight: 100;
+    margin-bottom: 20px;
+  }
+  .content{
+    margin-bottom: 30px;
+  }
+  p{
+    margin: 0;
+  }
+  h3{
+    font-size: clamp(20px, 3.5vw, 67px);
+    font-weight: 600;
+    color: $accentColor;
+  }
+}

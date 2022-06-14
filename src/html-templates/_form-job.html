@@ -1,0 +1,82 @@
+<form class="form">
+    <h4>COORDONNÉES</h4>
+    <div class="wrapper">
+        <div class="col">
+            <div class="group-item">
+                <label for="firstName">Prénom *</label>
+                <input id="firstName" type="text" placeholder="Entrer votre prénom" required>
+            </div>
+            <div class="group-item">
+                <label for="telephone">Téléphone *</label>
+                <input id="telephone" type="text" placeholder="555-555-5555" required>
+            </div>
+            <div class="group-item">
+                <label for="town">Ville *</label>
+                <input id="town" type="text" placeholder="555-555-5555" required>
+            </div>
+        </div>
+        <div class="col">
+            <div class="group-item">
+                <label for="lastName">Nom *</label>
+                <input id="lastName" type="text" placeholder="Entrer votre nom" required>
+            </div>
+            <div class="group-item">
+                <label for="email">Courriel *</label>
+                <input id="email" type="text" placeholder="info@mpre.ca" required>
+            </div>
+            <div class="group-item">
+                <label for="time">Meilleur moment pour vous joindre</label>
+                <select name="time to reach you" id="time">
+                    <option value="En tout temps">En tout temps</option>
+                    <option value="En tout temps">En tout temps</option>
+                    <option value="En tout temps">En tout temps</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="col">
+            <div class="group-checkbox modified">
+                <h5>Vous êtes intéressé par quel type de poste?</h5>
+                <div>
+                    <div class="item-check">
+                        <input type="checkbox" id="administration" name="administration">
+                        <label for="administration">Administration</label>
+                    </div>
+
+                    <div class="item-check">
+                        <input type="checkbox" id="ventes" name="ventes">
+                        <label for="ventes">Ventes</label>
+                    </div>
+
+                    <div class="item-check">
+                        <input type="checkbox" id="installation" name="installation">
+                        <label for="installation">Installation</label>
+                    </div>
+                </div>
+            </div>
+            <div class="group">
+                <label for="selectFile">Joindre un CV</label>
+                <input id="selectFile" name="selectFile" type="file" value="selectFile">
+            </div>
+        </div>
+        <div class="col">
+            <div class="group">
+                <label for="detailsAdd">Quelques détails à ajouter?</label>
+                <textarea name="Écrire ici" id="detailsAdd" cols="30" rows="6" placeholder="Écrire ici"></textarea>
+            </div>
+
+            <div class="group">
+                <label for="whereHear">Où avez-vous entendu parler de nous?</label>
+                <select name="time to reach you" id="whereHear">
+                    <option value="Jobillico">Jobillico</option>
+                    <option value="Jobillico">Jobillico</option>
+                    <option value="Jobillico">Jobillico</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-button">
+        <button class="button" type="submit">SOUMETTRE</button>
+    </div>
+</form>

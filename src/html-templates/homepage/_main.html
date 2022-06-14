@@ -1,16 +1,34 @@
-<section>
-<div class="container">
-
-    @@include("swiper.html")
-</div>
-
-</section>
-
-
-<section>
+<!--hero-->
+@@include('../_hero.html',{
+    item: "",
+    title: "augmentez",
+    subTitle: "VOTRE <br> ESPACE <br> DE VIE",
+})
+<!--description-->
+@@include('../_description.html',{
+    title: "NOS EXPERTS À VOTRE SERVICE",
+    text: "<p>Pour nous, la construction d’aménagements extérieurs, c’est plus qu’un métier, c’est une passion ! Avec plus de 25 ans d’expertise dans le domaine, notre talent et notre ingéniosité permettent de concevoir des éléments qui se marient à merveille à votre environnement.</p><p>Parce que l’on travaille nos projets avec cœur, soyez assuré que votre projet sera réalisé avec le souci du détail comme dans notre propre cour.</p>",
+    secondTitle: "PROFITEZ ENFIN.",
+})
+<section class="transition modified">
     <div class="container">
-    @@include('accordion.html')
-
-    </div> 
+        <div class="wrap">
+            <h2 class="accent-title">Nos services</h2>
+            <div class="content">
+                <ul>
+                    <li>Installation</li>
+                    <li>Conception et mesures</li>
+                    <li>Salle de montre</li>
+                    <li>Distribution</li>
+                </ul>
+            </div>
+            <div class="wrap-btn">
+                <a href="#" class="button">tout savoir</a>
+            </div>
+        </div>
+    </div>
 </section>
- 
+<!--section cards-->
+@@include('../_section-cards.html')
+<!--section transition-->
+@@include('../_section-transition.html')
