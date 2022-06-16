@@ -21,8 +21,22 @@
   .top{
     display: none;
     @include md{
+      padding: 20px 0;
+      position: relative;
+      z-index: 1;
       display: flex;
+      @include xxl{
+        padding: 50px 0 0 15px;
+      }
     }
+  }
+  .bg{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
   }
   .logo{
     max-width: 60px;

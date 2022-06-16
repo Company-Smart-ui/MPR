@@ -7,23 +7,45 @@
     background-image: url("../images/holder/bg-holder.png");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 350px;
+    min-height: 150px;
+    @include md{
+      min-height: 250px;
+    }
+    @include lg{
+      min-height: 350px;
+    }
     &.modified{
       background-color: white;
     }
   }
   .banner{
-    margin-top: -200px;
+    margin-top: -100px;
     margin-bottom: 20px;
+    @include md{
+      margin-top: -150px;
+    }
+    @include lg{
+      margin-top: -200px;
+    }
     @include lg{
       margin-bottom: 35px;
     }
     .wrap-banner{
       background: $accentColor;
-      max-height: 640px;
+      max-height: 150px;
+      overflow: hidden;
       font-size: 0;
+      display: flex;
+      align-items: center;
+      @include sm{
+        max-height: 350px;
+      }
+      @include lg{
+        max-height: 640px;
+      }
       img{
         min-height: 350px;
+        width: 100%;
       }
     }
     &.modified{
@@ -45,7 +67,7 @@
   }
   .accent-title{
     padding-left: 30px;
-    font-size: clamp(18px, 1.5vw, 30px);
+    font-size: clamp(12px, 1.5vw, 30px);
     &::before {
       width: 4px;
       left: 20px;

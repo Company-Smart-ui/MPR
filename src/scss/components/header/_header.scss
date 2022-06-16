@@ -35,11 +35,16 @@ $header-bgc: $mainColor;
             flex-wrap: wrap;
             display: flex;
             justify-content: space-between;
-            align-items: center;
+        }
+        @include xxl{
+            padding: 50px 0 0;
         }
     }
     .wrap-figure{
         display: flex;
+        @include md{
+            justify-content: center;
+        }
     }
     .logo {
         width: 40px;
@@ -47,6 +52,7 @@ $header-bgc: $mainColor;
         margin-right: 7px;
         @include md{
             width: 50px;
+            margin: 0;
         }
         img {
             object-fit: contain;
@@ -66,8 +72,12 @@ $header-bgc: $mainColor;
         color: white;
         font-weight: 900;
         margin: 10px 0 0;
+        text-align: center;
         @include md{
             display: block;
+        }
+        @include xl{
+            font-size: 20px;
         }
     }
 }
@@ -83,9 +93,12 @@ $header-bgc: $mainColor;
         .top{
             width: 100%;
             margin-bottom: 30px;
-        }
-        .name{
-            display: none;
+            @include md{
+                width: 70px;
+            }
+            @include xl{
+                width: 100px;
+            }
         }
     }
 }

@@ -1,16 +1,14 @@
 .transition{
-  background-position: center;
-  background-size: cover;
-  padding: 80px 0;
-  color: white;
   position: relative;
+  padding: 0 0 20px;
+  color: white;
   z-index: 1;
   font-weight: 300;
-  display: flex;
   text-align: center;
   @include sm {
+    padding: 80px 0;
+    display: flex;
     text-align: left;
-    background-image: url("../images/transition-img-template.jpg");
     &::before {
       position: absolute;
       top: 0;
@@ -63,6 +61,19 @@
       width: 50%;
     }
   }
+  .bg-img{
+    margin-bottom: 30px;
+    @include sm{
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      position: absolute;
+      margin: 0;
+    }
+    img{
+      width: 100%;
+    }
+  }
   .container{
     @include sm{
       display: flex;
@@ -102,9 +113,6 @@
   .accent-title{
     margin-bottom: 2.5vw;
     place-self: center;
-    @include md{
-      place-self: normal;
-    }
   }
   ul{
     text-transform: uppercase;
@@ -119,11 +127,17 @@
       }
     }
   }
+    /////// modified //////
   &.modified{
+    padding: 0 0 40px;
     display: block;
-    padding-top: 0;
+    .bg-img{
+      display: none;
+    }
     @include sm{
-      padding-top: 80px;
+      .bg-img{
+        display: block;
+      }
       &::after{
         transform: scale(-1, 1);
         left: calc(75% - 149px);

@@ -7,8 +7,14 @@
   .accent-title{
    color: $mainColor;
    margin-bottom: 5%;
+   place-self: center;
+   @include lg{
+    place-self: normal;
+   }
  }
  .container{
+  display: flex;
+  flex-direction: column;
   padding: 0;
   @include md{
    padding: 0 20px;
@@ -23,15 +29,28 @@
   }
  }
  .card {
-  padding: 20px 30px;
+  padding: 20px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 33.33%;
   border: 1px solid #ddd;
   border-top: 0;
+  &:hover{
+   .wrap-img{
+    @include md{
+     background: #000;
+     line, polyline{
+      stroke: white;
+     }
+    }
+   }
+  }
   &:last-child{
    border: 0;
+  }
+  @include sm{
+   padding: 20px 30px;
   }
   @include md{
    border: 0;
@@ -57,21 +76,25 @@
    }
   }
   .wrap-img{
-   height: 100px;
-   max-width: 150px;
+   width: 100%;
    display: flex;
    align-items: center;
    justify-content: center;
+   transition: .3s;
+   padding: 20px 5px;
    @include sm{
     margin-bottom: 15px;
    }
-   @include lg{
-    height: 200px;
-    max-width: 200px;
+   @include md{
+    padding: 20px;
    }
    svg{
-    height: 100%;
     width: 100%;
+    height: 100px;
+    max-width: 200px;
+    @include md{
+     height: 200px;
+    }
    }
   }
  }

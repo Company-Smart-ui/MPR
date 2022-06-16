@@ -1,29 +1,36 @@
-$nav-btn-color:#c72222;
-$nav-bgc:rgba(0, 0, 0, 0.322);
-$nav-hover:rgb(170, 81, 81);
-
 
 .nav {
     color: white;
     width: 100%;
     text-transform: uppercase;
+    display: flex;
     .wrap {
-        text-align: center;
+        width: calc(50% - 30px);
         max-height: 0;
         opacity: 0;
         pointer-events: none;
         transition: 0.4s;
         padding: 0;
-        margin: 0;
+        margin: 0 15px;
         overflow: hidden;
+        font-size: clamp(20px, 1.8vw, 36px);
+        font-weight: 300;
+        &.modified{
+            font-size: clamp(14px, 1.5vw, 26px);
+            text-transform: none;
+            font-weight: 400;
+            h2{
+                font-weight: 300;
+                text-align: left;
+                font-size: clamp(20px, 1.8vw, 36px);
+            }
+        }
     }
 
     .menu-item {
-        background-color: $nav-bgc;
         transform: translateX(+100%);
-        margin: 10px 0; 
         a{
-            padding: 10px 0px;
+            padding: 5px 0;
             width: 100%;
             display: block;
         }
@@ -35,7 +42,7 @@ $nav-hover:rgb(170, 81, 81);
         transition: 0.5s;
 
         &:hover {
-            background-color: $nav-hover;
+            color: $accentColor;
             transition: 0.2s;
         }
     }
@@ -54,6 +61,9 @@ $nav-hover:rgb(170, 81, 81);
     @include md{
         width: 50px;
         height: 50px;
+    }
+    @include xl{
+        width: 60px;
     }
     .btn-row {
         transition: 0.2s;
@@ -74,7 +84,13 @@ $nav-hover:rgb(170, 81, 81);
 
 .nav-open {
     .nav {
-        width: 100%;
+        width: calc(100% - 70px);
+        @include md{
+            padding-top: 30vh;
+        }
+        @include xl{
+            width: calc(100% - 100px);
+        }
         .wrap {
             height: auto;
             opacity: 1;

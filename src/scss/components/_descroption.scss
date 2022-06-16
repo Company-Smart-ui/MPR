@@ -13,15 +13,17 @@
     margin-bottom: 20px;
   }
   .content{
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
+    max-width: 1200px;
   }
   p{
     @include md{
       margin: 0;
+      line-height: 1.7;
     }
   }
   h3{
-    font-size: clamp(20px, 3.5vw, 67px);
+    font-size: clamp(20px, 3.5vw, 65px);
     font-weight: 300;
     color: $accentColor;
     @include md{
