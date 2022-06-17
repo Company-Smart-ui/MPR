@@ -6,7 +6,6 @@ const navBtn=document.querySelector(".nav-btn");
  
       @@include('modules/nav.js')
       @@include('lazyscripts.js')
-
  
 
 

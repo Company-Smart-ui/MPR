@@ -56,7 +56,7 @@
 <main class="main">
     <!--hero-->
     <section class="hero">
-    <img src="@@srcBg" class="bg" alt="bg-hero">
+    <img src="./images/hero/realisations.jpg" class="bg" alt="bg-hero">
     <div class="top">
         <div class="logo">
             <img src="./images/hero/hero-logo.png" alt="hero-logo">
@@ -84,19 +84,87 @@
     </div>
 </section>
     <!--description-->
-    <section class="description">
-    <div class="container">
-        <h2 class="title">RÉALISATION</h2>
-        <div class="content">
-            <p>Laissez-vous inspirer par notre galerie d’images.</p><p>Différents styles pour tous les goûts.</p>
+    <section class="description modified">
+        <div class="container">
+            <h2 class="title">RÉALISATION</h2>
+            <div class="content">
+                <p>Laissez-vous inspirer par notre galerie d’images.</p>
+                <p>Différents styles pour tous les goûts.</p>
+            </div>
+            <h3>UNE IMAGE VAUT MILLE MOTS!</h3>
         </div>
-        <h3>UNE IMAGE VAUT MILLE MOTS!</h3>
-    </div>
-</section>
+    </section>
     <!--  section info-->
     <section class="gallery">
+        <div class="filters-button-group">
+            <ul class="gallery-filters button-group">
+                <li data-filter=".rampes">Rampes</li>
+                <li data-filter=".planchers">Planchers</li>
+                <li data-filter=".escaliers, .colonnes">Escaliers et colonnes</li>
+                <li data-filter=".clotures">Clôtures et intimité</li>
+                <li data-filter=".auvents, .solarium">Auvents et solarium</li>
+                <li data-filter=".structures">Structures</li>
+                <li data-filter="*" class="is-checked">Tous les produits</li>
+            </ul>
+        </div>
         <div class="container">
-
+            <div class="grid">
+                <div class="grid-item escaliers">
+                    <a href="./images/gallery/IMAGE_MCMurale_ronde_anodisé (1).jpg" data-fslightbox="gallery ">
+                        <img src="./images/gallery/IMAGE_MCMurale_ronde_anodisé (1).jpg" alt="template">
+                    </a>
+                </div>
+                <div class="grid-item clotures">
+                    <a href="./images/gallery/metal-20.jpg" data-fslightbox="gallery ">
+                        <img src="./images/gallery/metal-20.jpg" alt="template">
+                    </a>
+                </div>
+                <div class="grid-item rampes">
+                    <a href="./images/gallery/MultiPatio-1578.jpg" data-fslightbox="gallery ">
+                        <img src="./images/gallery/MultiPatio-1578.jpg" alt="template">
+                    </a>
+                </div>
+                <div class="grid-item escaliers">
+                    <a href="./images/gallery/MultiPatio-2146.jpg" data-fslightbox="gallery ">
+                        <img src="./images/gallery/MultiPatio-2146.jpg" alt="template">
+                    </a>
+                </div>
+                <div class="grid-item rampes">
+                    <a href="./images/gallery/MultiPatio-2040.jpg" alt="template" data-fslightbox="gallery ">
+                        <img src="./images/gallery/MultiPatio-2040.jpg" alt="template">
+                    </a>
+                </div>
+                <div class="grid-item clotures">
+                    <a href="./images/gallery/MultiPatio-2282.jpg" alt="template" data-fslightbox="gallery ">
+                        <img src="./images/gallery/MultiPatio-2282.jpg" alt="template">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="./images/gallery/MultiPatio-2341.jpg" alt="template" data-fslightbox="gallery">
+                        <img src="./images/gallery/MultiPatio-2341.jpg" alt="template">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="./images/gallery/embout-poteau-spirale.jpg" alt="template" data-fslightbox="gallery">
+                        <img src="./images/gallery/embout-poteau-spirale.jpg" alt="template">
+                    </a>
+                </div>
+                <div class="grid-item clotures">
+                    <a href="./images/gallery/MultiPatio-2294.jpg" alt="template" data-fslightbox="gallery ">
+                        <img src="./images/gallery/MultiPatio-2294.jpg" alt="template">
+                    </a>
+                </div>
+                <div class="grid-item auvents">
+                    <a href="./images/gallery/auvents-multiples-corsica-01.jpeg" alt="template" data-fslightbox="gallery ">
+                        <img src="./images/gallery/auvents-multiples-corsica-01.jpeg" alt="template">
+                    </a>
+                </div>
+                <div class="grid-item auvents">
+                    <a href="./images/gallery/MultiPatio-1656.jpg" alt="template" data-fslightbox="gallery ">
+                        <img src="./images/gallery/MultiPatio-1656.jpg" alt="template">
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 </main>
@@ -121,8 +189,10 @@
  </script>
 
 </div>
-
-<script  src="js/main.js"> </script>
+<script src="js/main.js"></script>
+<script src="js/fslightbox.js"></script>
+<script src="js/masonry.js"></script>
+<script src="js/istope-packaged.js"></script>
 </body>
 
 </html>

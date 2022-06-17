@@ -1,11 +1,10 @@
 {
-  "name": "",
+  "name": "MPR",
   "version": "1.0.0",
   "description": "",
-  "author": "Viktor Moskalev",
+  "author": "Smart-UI",
   "license": "ISC",
   "dependencies": {
-    "animate.css": "^4.1.1",
     "browser-sync": "^2.27.5",
     "chalk": "^4.1.2",
     "css-mqpacker": "^7.0.0",
@@ -29,8 +28,7 @@
     "node-sass": "^6.0.1",
     "rimraf": "^3.0.2",
     "sharp": "^0.28.3",
-    "sort-css-media-queries": "^2.0.4",
-    "swiper": "6.8.1"
+    "sort-css-media-queries": "^2.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",

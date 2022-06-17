@@ -32,20 +32,22 @@
     }
     .wrap-banner{
       background: $accentColor;
-      max-height: 150px;
       overflow: hidden;
       font-size: 0;
       display: flex;
       align-items: center;
-      @include sm{
-        max-height: 350px;
-      }
-      @include lg{
-        max-height: 640px;
-      }
       img{
-        min-height: 350px;
+        height: 150px;
         width: 100%;
+        @include sm{
+          height: 350px;
+        }
+        @include lg{
+          height: 500px;
+        }
+        @include xxl{
+          height: 640px;
+        }
       }
     }
     &.modified{
@@ -144,6 +146,11 @@
       justify-content: space-between;
     }
   }
+  .wrap-blocks{
+    margin: 0 -10px;
+    display: flex;
+    justify-content: space-between;
+  }
   .block{
     text-align: center;
     padding: 15px;
@@ -181,9 +188,16 @@
     text-align: center;
     margin: 0 10px;
     .wrap-img{
-      max-width: 200px;
+      max-height: 100px;
       height: 200px;
       margin: 0 auto 15px;
+      @include sm{
+        max-height: 200px;
+      }
+      @include md{
+        max-height: none;
+        max-width: 200px;
+      }
       @include lg{
         margin-bottom: 25px;
       }
