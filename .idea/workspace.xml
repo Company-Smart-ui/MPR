@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2600d24-f75e-4e37-9a96-96d4af1f4a6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ramps.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stairs-and-columns.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/about.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/achievements.html" beforeDir="false" />
@@ -30,9 +28,96 @@
       <change beforePath="$PROJECT_DIR$/dist/images/gallery/embout-poteau-pyramide.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/images/gallery/embout-poteau-spirale.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/images/gallery/metal-20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/1x/stairs-and-columns-80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/1x/stairs-and-columns.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/a-propos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/accueil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/conseils.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/contact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/devis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/emplois.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/hero-logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/images/hero/nos-services.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/planchers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/rampes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/realisations.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/stairs-and-columns.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/bg-holder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/conseils/conseils-holder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/conseils/conseils.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/conseils/installation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/conseils/mesures.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/contact/contact-holder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/contact/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/devis/devis-holder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/emplois/emplois-holder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/escliers-et-colonnes/Aluminium Distinction Limon_Fermé_Blanc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/escliers-et-colonnes/Aluminium Distinction Limon_Ouvert_Blanc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/escliers-et-colonnes/Aluminium Distinction Limon_Patrimoine_Blanc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/escliers-et-colonnes/MultiPatio-2146.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/escliers-et-colonnes/MultiPatio-4020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/escliers-et-colonnes/escliers-et-colonnes-HOLDER-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/escliers-et-colonnes/escliers-et-colonnes-holder-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/escliers-et-colonnes/escliers-et-colonnes-holder-2-img-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/escliers-et-colonnes/escliers-et-colonnes-holder-2-img-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/escliers-et-colonnes/escliers-et-colonnes-holder-2-img-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/escliers-et-colonnes/escliers-et-colonnes-holder-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/holder-img-template.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/logo/almax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/logo/aluminium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/logo/distinction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/logo/fiberon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/logo/global-dec-k-ing-systems.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/logo/jdee-tech.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/multi-patio-rampe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/nos-services/nos-services-holder-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/nos-services/nos-services-holder-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/nos-services/nos-services-holder-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/nos-services/nos-services-holder-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/nos-services/nos-services-holder-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/patio-rampe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/patio-rampes-experts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/planchers/planchers-holder-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/planchers/planchers-holder-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/planchers/planchers-holder-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/planchers/planchers-holder-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/rampes/rampes-holder-1-img-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/rampes/rampes-holder-1-img-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/rampes/rampes-holder-1-img-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/rampes/rampes-holder-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/rampes/rampes-holder-2-img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/rampes/rampes-holder-2-img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/rampes/rampes-holder-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/rampes/rampes-holder-3-img-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/rampes/rampes-holder-3-img-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/rampes/rampes-holder-3-img-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/rampes/rampes-holder-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/holder/rampes/rampes-holder-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/Insta.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/LinkedIn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/arrow-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/dropdown-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/twitter.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/menu/rebais-dollars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/menu/recommande.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/produits/auvents-et-solariums.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/produits/clonnes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/produits/clotures.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/produits/excalirs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/produits/intimite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/produits/planchers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/produits/rampes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/produits/structures.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/images/transition-img-template.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/transition/transition-img-template-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/transition/transition-img-template-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/transition/transition-img-template.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/jobs.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/fslightbox.js" beforeDir="false" />
@@ -43,55 +128,11 @@
       <change beforePath="$PROJECT_DIR$/dist/js/slider-init.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/swiper-min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/our-service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ramps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/stairs-and-columns.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/tips.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devis.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/devis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/floors.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/floors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/_section-cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/_section-cards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/_section-transition.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/_section-transition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/homepage/_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/homepage/_main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/modules/_card-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/modules/_card-item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/IMAGE_MCMurale_ronde_anodisé.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/IMAGE_MCMurale_ronde_anodisé.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/MultiPatio-1578.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/MultiPatio-1578.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/MultiPatio-1656.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/MultiPatio-1656.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/MultiPatio-2040.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/MultiPatio-2040.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/MultiPatio-2146.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/MultiPatio-2146.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/MultiPatio-2282.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/MultiPatio-2282.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/MultiPatio-2294.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/MultiPatio-2294.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/MultiPatio-2341.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/MultiPatio-2341.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/auvents-multiples-corsica-01.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/auvents-multiples-corsica-01.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/embout-poteau-balle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/embout-poteau-balle.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/embout-poteau-pyramide.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/embout-poteau-pyramide.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/embout-poteau-spirale.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/embout-poteau-spirale.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/metal-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/metal-20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero/a-propos.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/a-propos.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero/accueil.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/accueil.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero/conseils.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/conseils.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero/contact.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/contact.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero/devis.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/devis.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero/emplois.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/emplois.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero/hero-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/hero-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero/nos-services.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/nos-services.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero/planchers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/planchers.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero/realisations.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/realisations.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/holder/devis/devis-holder.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/holder/devis/devis-holder.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/holder/nos-services/nos-services-holder-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/holder/nos-services/nos-services-holder-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/holder/nos-services/nos-services-holder-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/holder/nos-services/nos-services-holder-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/holder/planchers/planchers-holder-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/holder/planchers/planchers-holder-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/holder/planchers/planchers-holder-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/holder/planchers/planchers-holder-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/holder/planchers/planchers-holder-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/holder/planchers/planchers-holder-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/holder/planchers/planchers-holder-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/holder/planchers/planchers-holder-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/transition/transition-img-template.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/transition/transition-img-template.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/jobs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/our-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/our-service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_descroption.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_descroption.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_holder.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_holder.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/header/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/header/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/header/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/achievements.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/achievements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/IMAGE_MCMurale_ronde_anodisé.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +184,7 @@
       <workItem from="1654931770616" duration="77398000" />
       <workItem from="1655451475866" duration="25060000" />
       <workItem from="1655649322726" duration="907000" />
-      <workItem from="1655708020577" duration="15315000" />
+      <workItem from="1655708020577" duration="18299000" />
     </task>
     <servers />
   </component>
