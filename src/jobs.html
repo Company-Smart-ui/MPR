@@ -35,7 +35,9 @@ metadesc:'page with very interesting content'
         </div>
     </section>
     <!--section transition-->
-    @@include('./html-templates/_section-transition.html')
+    @@include('./html-templates/_section-transition.html',{
+    src: "transition-img-template.jpg",
+    })
 </main>
 @@include('./html-templates/footer.html',{
 })

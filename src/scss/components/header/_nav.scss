@@ -83,10 +83,21 @@
 }
 
 .nav-open {
-    .nav {
-        width: calc(100% - 70px);
+    .btn-row{
+        height: 1px;
+        @include sm{
+            height: 3px;
+        }
         @include md{
+            height: 4px;
+        }
+    }
+    .nav {
+        margin-bottom: 10vh;
+        @include md{
+            width: calc(100% - 70px);
             padding-top: 30vh;
+            padding-bottom: 10vh;
         }
         @include xl{
             width: calc(100% - 100px);
