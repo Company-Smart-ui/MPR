@@ -23,7 +23,6 @@
  .wrapper{
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
   @include lg{
    align-items: stretch;
   }
@@ -90,9 +89,24 @@
     }
    }
   }
+  &.modified{
+   background-color: $accentColor;
+   min-height: 100%;
+   color: white;
+   font-weight: 100;
+   display: flex;
+   justify-content: center;
+   .item-title{
+     text-align: left;
+   }
+   @include md{
+    display: none;
+   }
+  }
  }
   .item-title{
-   font-weight: 300;
+   line-height: 1.2;
+   font-weight: 100;
    font-size: clamp(15px, 2vw, 38px);
    @include lg{
     order: -1;
@@ -105,7 +119,7 @@
    align-items: center;
    justify-content: center;
    transition: .3s;
-   padding: 20px 5px;
+   padding: 0 20px 5px;
    &:after{
     position: absolute;
     content: "";
@@ -123,8 +137,11 @@
    }
    svg{
     width: 100%;
-    height: 100px;
+    height: 70px;
     max-width: 200px;
+    @include sm{
+     height: 100px;
+    }
     @include md{
      height: 200px;
     }

@@ -93,7 +93,6 @@
         }
     }
     .nav {
-        margin-bottom: 10vh;
         @include md{
             width: calc(100% - 70px);
             padding-top: 30vh;

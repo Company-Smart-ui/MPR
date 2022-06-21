@@ -15,20 +15,16 @@
   .wrap{
     font-weight: 300;
     text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
     @include sm{
+      flex-direction: row;
       text-align: left;
-      display: flex;
       align-items: baseline;
       justify-content: space-between;
     }
     p{
       margin: 0 0 7px;
-    }
-  }
-  .content{
-    display: none;
-    @include sm{
-      display: block;
     }
   }
   .email{
@@ -39,6 +35,7 @@
     font-weight: 700;
   }
   .wrap-button{
+    margin-bottom: 20px;
     .button{
       background: $accentColor;
       @include xl{

@@ -16,3 +16,15 @@ const links = header.querySelectorAll('a');
 links.forEach(link => {
   link.addEventListener('click', closenav);
 });
+
+document.addEventListener( 'click', (e) => {
+  const withinBoundaries = e.composedPath().includes(header);
+  if ( ! withinBoundaries ) {
+    closenav();
+  }
+});
+document.addEventListener('keydown', function(e) {
+  if( e.keyCode == 27 ){
+    closenav();
+  }
+});
