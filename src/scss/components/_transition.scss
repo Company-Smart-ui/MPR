@@ -186,5 +186,13 @@
         margin-bottom: 20px;
       }
     }
+    .content{
+      a{
+        transition: .3s;
+        &:hover{
+          color: $accentColor;
+        }
+      }
+    }
   }
 }

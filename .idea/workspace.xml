@@ -3,14 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="d2600d24-f75e-4e37-9a96-96d4af1f4a6f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/achievements.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/achievements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/devis.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/devis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/floors.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/floors.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/_section-cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/_section-cards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/jobs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/our-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/our-service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ramps.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ramps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/stairs-and-columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/stairs-and-columns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html-templates/_form-job.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/_form-job.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html-templates/_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html-templates/_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/_hero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html-templates/homepage/_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/homepage/_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/header/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/header/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/header/_nav.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +77,7 @@
       <workItem from="1655451475866" duration="25060000" />
       <workItem from="1655649322726" duration="907000" />
       <workItem from="1655708020577" duration="21522000" />
+      <workItem from="1655977875733" duration="9226000" />
     </task>
     <servers />
   </component>

@@ -89,11 +89,14 @@ $header-bgc: $mainColor;
     }
     .wrap-partners{
         display: none;
-        justify-content: flex-end;
-        padding-right: 7vw;
-        width: 100%;
+        margin-left: auto;
+        width: calc(50% - 15px);
         @include md{
-            padding-right: 12vw;
+            width: calc(50% - 55px);
+            margin-left: auto;
+        }
+        @include xl{
+            width: calc(50% - 65px);
         }
         figure{
             max-height: 25px;
