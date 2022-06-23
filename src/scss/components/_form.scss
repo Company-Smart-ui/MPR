@@ -54,6 +54,9 @@
     display: block;
     font-weight: 700;
   }
+  select, #selectFile{
+    cursor: pointer;
+  }
   .group-item, .group{
     margin-bottom: 15px;
     label{
@@ -107,6 +110,7 @@
       outline: none;
       margin-right: 10px;
       position: relative;
+      cursor: pointer;
       &:checked{
         &:after{
           position: absolute;
@@ -150,6 +154,7 @@
       appearance: none;
     }
     &::before{
+      pointer-events: none;
       content: "⌃";
       position: absolute;
       z-index: 1;
