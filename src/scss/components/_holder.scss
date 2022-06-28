@@ -152,11 +152,21 @@
     justify-content: flex-end;
   }
   .block{
+    display: block;
     text-align: center;
     padding: 15px;
+    background-color: white;
     border: 2px solid $accentColor;
     margin: 20px 0;
     font-size: clamp(12px, .9vw, 18px);
+    transition: .3s;
+    &:hover{
+      background-color: $accentColor;
+      color: white;
+      path{
+        fill: white;
+      }
+    }
     @include lg{
       margin: 0 10px;
     }
@@ -179,6 +189,9 @@
         max-width: 100px;
         max-height: 100px;
         width: 100%;
+      }
+      path{
+        transition: .3s;
       }
     }
   }

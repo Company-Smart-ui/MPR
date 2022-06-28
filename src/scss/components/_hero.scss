@@ -101,7 +101,6 @@
   .arrow{
     display: none;
     @include md{
-      display: block;
       color: $accentColor;
       position: absolute;
       right: 20px;

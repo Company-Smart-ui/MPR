@@ -30,6 +30,10 @@
   .email{
     margin-top: 15px;
     display: block;
+    transition: .3s;
+    &:hover{
+      color: $accentColor;
+    }
   }
   .coordination{
     font-weight: 700;
