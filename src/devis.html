@@ -23,7 +23,9 @@ metadesc:'page with very interesting content'
         <div class="top"></div>
         <div class="container">
             <div class="banner">
-                <h2 class="accent-title">DEMANDE DE SOUMISSION</h2>
+                @@include('./html-templates/_accent-title.html',{
+                title: "DEMANDE DE SOUMISSION",
+                })
                 <div class="wrap-banner">
                     <img src="./images/holder/devis/devis-holder.jpg" alt="banner">
                 </div>

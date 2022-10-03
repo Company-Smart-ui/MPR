@@ -15,12 +15,14 @@
       min-height: 350px;
     }
     &.modified{
+      opacity: .4;
       background-color: white;
     }
   }
   .banner{
     margin-top: -100px;
     margin-bottom: 20px;
+    position: relative;
     @include md{
       margin-top: -150px;
     }
@@ -51,6 +53,9 @@
       }
     }
     &.modified{
+      .wrap-title{
+        background-color: #fff;
+      }
       .accent-title{
         color: $mainColor;
       }
@@ -65,6 +70,15 @@
       @include lg{
         align-items: flex-end;
       }
+    }
+  }
+  .wrap-title{
+    display: inline-block;
+    padding: 10px 35px 10px 0;
+    margin-bottom: 20px;
+    background-color: #1d1d1b;
+    .accent-title{
+      margin-bottom: 0;
     }
   }
   .accent-title{

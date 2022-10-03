@@ -2,34 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2600d24-f75e-4e37-9a96-96d4af1f4a6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/awnings-and-solarium.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/closure-and-privacy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structures.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html-templates/_accent-title.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/achievements.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/achievements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/awnings-and-solarium.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/awnings-and-solarium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/closure-and-privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/closure-and-privacy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/devis.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/devis.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/floors.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/floors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/jobs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/our-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/our-service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/ramps.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ramps.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/stairs-and-columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/stairs-and-columns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/structures.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/structures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tips.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/_section-cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/_section-cards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/Insta.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/LinkedIn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/facebook.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/instagram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/twitter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/__var.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/__var.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/awnings-and-solarium.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/awnings-and-solarium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/closure-and-privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/closure-and-privacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devis.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/devis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/floors.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/floors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/jobs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/our-service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ramps.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/ramps.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_holder.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_holder.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stairs-and-columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/stairs-and-columns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structures.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tips.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +87,10 @@
       <workItem from="1656497569872" duration="940000" />
       <workItem from="1656577299362" duration="61000" />
       <workItem from="1656577581196" duration="8991000" />
+      <workItem from="1657719806280" duration="5000" />
+      <workItem from="1658478393428" duration="24000" />
+      <workItem from="1659038741156" duration="14000" />
+      <workItem from="1664790519443" duration="4077000" />
     </task>
     <servers />
   </component>
