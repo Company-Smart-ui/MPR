@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2600d24-f75e-4e37-9a96-96d4af1f4a6f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_holder.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_holder.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/achievements.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/achievements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/gallery/IMAGE_MCMurale_ronde_anodise.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/gallery/IMAGE_MCMurale_ronde_anodise.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/gallery/auvents-multiples-corsica-01.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/gallery/auvents-multiples-corsica-01.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/a-propos.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/hero/a-propos.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/accueil.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/hero/accueil.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/conseils.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/hero/conseils.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/contact.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/hero/contact.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/devis.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/hero/devis.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/emplois.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/hero/emplois.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/rampes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/hero/rampes.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/realisations.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/hero/realisations.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/stairs-and-columns.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/hero/stairs-and-columns.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero/structures.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/hero/structures.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/achievements.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/achievements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/IMAGE_MCMurale_ronde_anodise.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/IMAGE_MCMurale_ronde_anodise.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/auvents-multiples-corsica-01.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/auvents-multiples-corsica-01.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/hero/a-propos.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/a-propos.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/hero/accueil.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/accueil.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/hero/conseils.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/conseils.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/hero/contact.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/contact.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/hero/devis.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/devis.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/hero/emplois.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/emplois.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/hero/rampes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/rampes.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/hero/realisations.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/realisations.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/hero/stairs-and-columns.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/stairs-and-columns.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/hero/structures.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hero/structures.jpeg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +89,8 @@
       <workItem from="1657719806280" duration="5000" />
       <workItem from="1658478393428" duration="24000" />
       <workItem from="1659038741156" duration="14000" />
-      <workItem from="1664790519443" duration="4343000" />
+      <workItem from="1664790519443" duration="4820000" />
+      <workItem from="1664867850785" duration="1852000" />
     </task>
     <servers />
   </component>
